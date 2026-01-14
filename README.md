@@ -4,7 +4,7 @@ Real-time object detection on RTSP video streams using YOLOv9 with web-based vis
 
 ## Overview
 
-This script processes an RTSP camera stream through a YOLOv9 model to detect specific objects (people, vehicles, pets) and streams the annotated video to a web browser via MJPEG over HTTP.
+This script processes an RTSP stream (from a camera or other sources) through a YOLOv9 model to detect specific objects (people, vehicles, pets) and streams the annotated video to a web browser via MJPEG over HTTP.
 
 ## How It Works
 	1.	Connects to RTSP stream with authentication
