@@ -55,7 +55,7 @@ rtsp_user = '<usuario>'
 rtsp_pass = '<senha>'
 rtsp_url = f'rtsp://{rtsp_user}:{rtsp_pass}@<IP>:<Porta><URL>'
 ```
-Note: if your RTSP stream doesn't need username as password, edit the rtsp_url below and remove them from the URL.
+Note: if your RTSP stream doesn't need username and password, edit the rtsp_url variable below and remove the parameters from the URL.
 
 ## HTTP Server
 
